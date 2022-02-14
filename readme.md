@@ -2,7 +2,7 @@
 
 A Simple dashboard for a flowershop with basic crud functionality edit/delete using firebase real-time database. 
 
-##Prerequisites
+## Prerequisites
 
 - npm
 -- parcel
@@ -15,7 +15,7 @@ npm install
 ```
 
 ```npm
-npm install firebase parcel
+npm start
 ```
 
 This project is also deployed on Netlify: https://valleyrose.netlify.app/
