@@ -1,0 +1,18 @@
+{
+  "name": "valleyrose",
+  "version": "1.0.0",
+  "description": "Flower Shop",
+  "scripts": {
+    "clean": "rm -rf node_modules .git .parcel-cache dist .DS_Store",
+    "static": "cp -rf ./src/static   dist",
+    "start": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html"
+  },
+  "author": "Muntader Al Nasser",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^9.6.5",
+    "parcel": "^2.2.1",
+    "sass": "^1.49.7"
+  }
+}

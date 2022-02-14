@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap');
+
+main{
+    transition: margin-left .5s;
+    padding-left: 4rem;
+}
+
+.sidenav {
+    height: 100%;
+    width: 4rem; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(41, 40, 40);
+    transition: 0.5s;
+    overflow-x: hidden;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+    box-shadow: 0 0 1px 0  rgb(255, 255, 255);
+    height: 100%;
+
+    .toggle {
+        padding: 1rem 0;
+        background-color: #ffffff;
+
+        img {
+            width: 4rem;
+            height: 100%;
+        }
+        .logo-text {
+            font-family: 'Lexend', sans-serif;
+            // text-transform: uppercase;
+            font-variant: small-caps;
+            font-weight: bold;
+            font-size: 1rem;
+            color: #000000;
+        }
+    }
+    .sidenav_list {
+        padding-top: 2rem;
+        display: flex;
+        height: auto;
+        flex-flow: column;
+        gap: 2rem;
+
+        // @media screen and (max-height: 450px) {
+        //     .sidenav {
+                
+        //     }
+        // } 
+
+        .list-title {
+            padding: 1rem;
+            font-size: 13px;
+            color: rgb(235, 235, 235);
+            visibility:hidden;
+            text-transform: uppercase;
+        
+        }
+        
+
+        .nav-list, .app-list {
+        padding-bottom: 2rem;
+        border-bottom: 1px solid #818181;
+        }
+        .icon-text {
+            vertical-align: middle;
+            padding-left: 1.3rem;
+            text-transform: uppercase;
+        }
+        a {
+            padding: 8px 8px 8px 15px;
+            text-decoration: none;
+            font-size: 15px;
+            color: #818181;
+            display: block;
+        }
+    
+        a:hover {
+            background-color: white;
+            cursor: pointer;
+            border-left: .5rem solid #ccd2e6;
+
+            svg {
+                fill: #ccd2e6;
+            }
+        }
+    
+        svg {
+            fill: #818181;
+            width: 1.5rem;
+            height: 100%;
+        }
+    }
+}
+
+
+
+

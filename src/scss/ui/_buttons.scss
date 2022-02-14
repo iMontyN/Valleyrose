@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+
+%button{
+    outline: 0;
+    border: 0;
+    background: none;
+    border: 1px solid #c2c2c2;
+    padding: 8px 0px;
+    margin-bottom: 15px;
+    color: #515151;
+    text-transform: uppercase;
+    width: 125px;
+    font-family: 'Marcellus SC', serif;
+    margin-right: 5px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button{
+    @extend %button;
+}
+

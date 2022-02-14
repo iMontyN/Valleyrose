@@ -1,0 +1,47 @@
+.navbar {
+    transition: margin-left .5s;
+    display: flex;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    padding: 0 1rem;
+    padding-left: 5rem;
+    position: sticky;
+    display: flex;
+    
+    align-items: center;
+    
+    a {
+        text-decoration: none;
+        svg:hover {
+            fill: #ccd2e6;
+        }
+    }
+
+    img {
+        padding: .5rem;
+        width: 4.5rem;
+        height: 100%;
+    }
+
+    svg {
+        width: 1.5rem;
+        height: 100%;
+        fill: rgb(0, 0, 0);
+    }
+
+
+    h2 {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .nav-items {
+        margin-right: 0;
+        margin-left: auto;
+    }
+
+
+    // .logo{
+    //     width: 8rem;
+    //     height: 100%;
+    // }
+}
+
