@@ -18,5 +18,5 @@ npm install
 npm install firebase parcel
 ```
 
-This project is also deployed on Netlify: 
+This project is also deployed on Netlify: https://valleyrose.netlify.app/
 
